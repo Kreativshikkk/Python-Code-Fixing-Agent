@@ -1,0 +1,15 @@
+# META
+run_in_docker: False # TODO(add docker)?. UNSUPPORTED NOW!
+pycharm_bin_directory: /Applications/PyCharm.app/Contents/bin # Needed for inspections tool. This value it default for Mac
+
+# Model
+model_name: "gpt-4o"
+
+# Agent
+max_iter: 3
+recursion_limit: 30 # it is recommended to keep it more than max_iter * 6.
+
+# Arguments for running
+buggy_code: ""
+docstring: ""
+run_inspections: False # Run PyCharm inspections or no
