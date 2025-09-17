@@ -11,7 +11,7 @@ environment.
 
 Key points:
 - The agent is designed to fix buggy code with an accompanying docstring.
-- It generates and/or runs tests, then modifies the code until it passes.
+- It generates and runs tests, then modifies the code (and tests sometimes, as they might be incorrect) until it passes.
 - Developed and tested on **Python 3.11** — please use this version.
 
 ---
